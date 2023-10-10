@@ -51,14 +51,45 @@ Recibiendo objetos: 100% (3/3), listo.
 - git add .
 - git commit -m"aguacate inicial"
 
-</detail>
+</details>
 
 __Salida__:
 ```code
+dam@a108pc01:~/Documentos/ProyectoMillonario$ git commit -m "aguacate inicial"
+[main 7181d38] aguacate inicial
+ 1 file changed, 84 insertions(+), 2 deletions(-)
+ rewrite README.md (63%)
 
 ```
+<a name="pushInicial"></a>
 
+## Push Inicial
 
+Subir los cambios al repositorio remoto.
+
+<details>
+
+<summary>Comandos</summary>
+
+- git push oring master(main)
+</details>
+
+__Salida__:
+```code
+git push origin master
+error: src refspec master no concuerda con ninguno
+error: falló el empuje de algunas referencias a 'github.com:adogonz23/ProyectoMillonario.git'
+dam@a108pc01:~/Documentos/ProyectoMillonario$ git push origin main
+Enumerando objetos: 5, listo.
+Contando objetos: 100% (5/5), listo.
+Compresión delta usando hasta 12 hilos
+Comprimiendo objetos: 100% (2/2), listo.
+Escribiendo objetos: 100% (3/3), 812 bytes | 812.00 KiB/s, listo.
+Total 3 (delta 0), reusados 0 (delta 0), pack-reusados 0
+To github.com:adogonz23/ProyectoMillonario.git
+   54bc61e..7181d38  main -> main
+
+```
 
 
 
@@ -81,4 +112,4 @@ __Salida__:
 
 <summary>Comandos</summary>
 
-</detail>
+</details>
