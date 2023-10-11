@@ -90,8 +90,11 @@ To github.com:adogonz23/ProyectoMillonario.git
    54bc61e..7181d38  main -> main
 
 ```
+Como he clonado el repositorio y con la creacion de este mismo creee el archivo readme, el paso que me he saltado es el de creear el readme (**touch README.md**)
 
+<a name="ignorarArchivos"></a>
 
+## Ignorar archivos
 
 
 
